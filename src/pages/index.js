@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import { Container } from 'reactstrap'
-import Link from 'gatsby-link'
+import React, { Component, Fragment } from 'react'
+import Banner from '../components/jumbotron'
+import ProductGrid from '../components/productGrid'
 
 class IndexPage extends Component {
   render() {
     return (
-      <Container>
-        <h3>Welcome to Cardiac Diagnostics</h3>
-        <p>Under Construction...</p>
-      </Container>
+      <Fragment>
+        <Banner />
+        <ProductGrid />
+      </Fragment>
     )
   }
 }
