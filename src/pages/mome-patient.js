@@ -1,12 +1,15 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React, { Component } from 'react'
+import { Container } from 'reactstrap'
 
-const SecondPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
-)
+class MOMEpatient extends Component {
+  render() {
+    return (
+      <Container>
+        <h3>Welcome to the MOME patient page.</h3>
+        <p>Under Construction...</p>
+      </Container>
+    )
+  }
+}
 
-export default SecondPage
+export default MOMEpatient

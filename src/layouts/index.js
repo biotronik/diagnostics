@@ -1,9 +1,34 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { Container } from 'reactstrap'
 import Header from '../components/header'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { injectGlobal } from 'styled-components'
+import Footer from '../components/footer'
+
+injectGlobal`
+html{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+
+}
+  body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+      'Lucida Grande', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    a:hover {
+      text-decoration: none;
+    }
+    a:active {
+      text-decoration: none;
+    }
+  }
+`
 
 const Layout = ({ children, data }) => (
   <div>
@@ -15,7 +40,8 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
-    <Container>{children()}</Container>
+    {children()}
+    <Footer />
   </div>
 )
 
