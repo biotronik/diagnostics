@@ -41,7 +41,7 @@ class Header extends React.Component {
       <Container>
         <Navbar light expand="md" style={{ padding: '.5rem 0rem' }}>
           <Link exact to="/">
-            <img src={logoImg} alt="Logo" width="150px" height="auto" />
+            <img src={logoImg} alt="Logo" width="150px" height="50px" />
           </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
