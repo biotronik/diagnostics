@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import Header from '../components/header'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { injectGlobal } from 'styled-components'
 import Footer from '../components/footer'
+
+import appletouch from '../images/apple-touch-icon.png'
 
 injectGlobal`
 html{
@@ -32,13 +34,19 @@ html{
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
+    <Helmet>
+      <title>My Title</title>
+      <meta
+        name="description"
+        content="BIOTRONIK’s cardiac diagnostic devices help physicians detect and monitor evidence of a patient’s suspected arrhythmia or unexplained syncope."
+      />
+      <meta
+        name="keywords"
+        content="cardiac diagnostics, arrhythmia, heart, biotronik"
+      />
+      <link rel="apple-touch-icon" href={appletouch} />
+    </Helmet>
+
     <Header siteTitle={data.site.siteMetadata.title} />
     {children()}
     <Footer />
