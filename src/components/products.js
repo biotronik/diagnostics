@@ -17,15 +17,17 @@ class Products extends Component {
         <Card className="h-100">
           <CardImg src={this.props.image} top width="100%" />
           <CardBody className="h-100 d-flex flex-column">
-            <CardTitle>{this.props.title}</CardTitle>
-            <CardTitle>{this.props.subtitle}</CardTitle>
+            <CardTitle className="h2 font-weight-bold">
+              {this.props.title}
+            </CardTitle>
+            <CardTitle className="h4">{this.props.subtitle}</CardTitle>
             <CardText>{this.props.shortDescription}</CardText>
-            <CardText className="align-items-end d-flex justify-content-between flex-wrap">
+            <CardText className="align-items-end d-flex justify-content-between align-items-end">
               <Link to={this.props.physicianLink}>
-                <Button>For Physicans</Button>
+                <Button color="link">For Physicans</Button>
               </Link>
               <Link to={this.props.patientLink}>
-                <Button>For Patients</Button>
+                <Button color="link">For Patients</Button>
               </Link>
             </CardText>
           </CardBody>
