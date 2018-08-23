@@ -6,7 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { injectGlobal } from 'styled-components'
 import Footer from '../components/footer'
 
-import appletouch from '../images/apple-touch-icon.png'
+import appletouchicon57x57 from '../images/apple-touch-icon-57x57.png'
+import appletouchicon72x72 from '../images/apple-touch-icon-72x72.png'
+import appletouchicon76x76 from '../images/apple-touch-icon-76x76.png'
+import appletouchicon114x114 from '../images/apple-touch-icon-114x114.png'
+import appletouchicon120x120 from '../images/apple-touch-icon-120x120.png'
+import appletouchicon144x144 from '../images/apple-touch-icon-144x144.png'
+import appletouchicon152x152 from '../images/apple-touch-icon-152x152.png'
+import appletouchicon180x180 from '../images/apple-touch-icon-180x180.png'
 
 injectGlobal`
 html{
@@ -35,7 +42,7 @@ html{
 const Layout = ({ children, data }) => (
   <div>
     <Helmet>
-      <title>My Title</title>
+      <title>BIOTRONIK Cardiac Diagnostics</title>
       <meta
         name="description"
         content="BIOTRONIK’s cardiac diagnostic devices help physicians detect and monitor evidence of a patient’s suspected arrhythmia or unexplained syncope."
@@ -44,7 +51,34 @@ const Layout = ({ children, data }) => (
         name="keywords"
         content="cardiac diagnostics, arrhythmia, heart, biotronik"
       />
-      <link rel="apple-touch-icon" href={appletouch} />
+      <link rel="apple-touch-icon" sizes="57x57" href={appletouchicon57x57} />
+      <link rel="apple-touch-icon" sizes="72x72" href={appletouchicon72x72} />
+      <link rel="apple-touch-icon" sizes="76x76" href={appletouchicon76x76} />
+      <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href={appletouchicon114x114}
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="120x120"
+        href={appletouchicon120x120}
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="144x144"
+        href={appletouchicon144x144}
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="152x152"
+        href={appletouchicon152x152}
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href={appletouchicon180x180}
+      />
     </Helmet>
 
     <Header siteTitle={data.site.siteMetadata.title} />
