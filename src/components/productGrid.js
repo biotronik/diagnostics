@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Products from './products'
-import { Container, Row, Col } from 'reactstrap'
+import { Container, Row } from 'reactstrap'
 
 class ProductGrid extends Component {
   render() {

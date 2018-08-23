@@ -6,7 +6,6 @@ import {
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
   Button,
 } from 'reactstrap'
 import Link from 'gatsby-link'
