@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import styled from 'styled-components'
-import ResponsivePlayer from './wistia'
+import ResponsivePlayer from './wistiaPlayer'
 
 const Wrapper = styled.div`
   background-color: #00234c;
