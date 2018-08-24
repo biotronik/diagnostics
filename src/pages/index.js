@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import Banner from '../components/Jumbotron'
-import { Container, Row, Col } from 'reactstrap'
-import ProductGrid from '../components/ProductGrid'
-import OneColumnText from '../components/OneColumnText'
+import Banner from '../components/jumbotron'
+import ProductGrid from '../components/productGrid'
+import OneColumnText from '../components/oneColumnText'
 
 class IndexPage extends Component {
   render() {

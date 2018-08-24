@@ -1,10 +1,8 @@
 import React, { Component, Fragment } from 'react'
-import { Container } from 'reactstrap'
-import Banner from '../components/Jumbotron'
-import TwoColumnsTextImage from '../components/TwoColumnsTextImage'
-import TwoColumnsImageText from '../components/TwoColumnsImageText'
-import OneColumnQuote from '../components/OneColumnQuote'
-import OneColumnVideo from '../components/OneColumnVideo'
+import Banner from '../components/jumbotron'
+import TwoColumnsTextImage from '../components/twoColumnsTextImage'
+import TwoColumnsImageText from '../components/twoColumnsImageText'
+import OneColumnQuote from '../components/oneColumnQuote'
 
 class BM2physician extends Component {
   render() {

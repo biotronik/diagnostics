@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Container } from 'reactstrap'
-import Banner from '../components/Jumbotron'
 
 class MOMEphysician extends Component {
   render() {

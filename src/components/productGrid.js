@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Products from './Products'
+import Products from './products'
 import { Container, Row } from 'reactstrap'
 
 class ProductGrid extends Component {
