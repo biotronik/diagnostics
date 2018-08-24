@@ -6,15 +6,6 @@ import ResponsivePlayer from './wistiaPlayer'
 const Wrapper = styled.div`
   background-color: #00234c;
 `
-const PlayerWrapper = styled.div`
-  position: relative;
-  padding-top: 56.25%;
-`
-const ResponsiveReactPlayer = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-`
 
 class OneColumnVideo extends Component {
   render() {
