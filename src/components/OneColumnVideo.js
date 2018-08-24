@@ -1,9 +1,19 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import styled from 'styled-components'
+import ResponsivePlayer from './wistia'
 
 const Wrapper = styled.div`
   background-color: #00234c;
+`
+const PlayerWrapper = styled.div`
+  position: relative;
+  padding-top: 56.25%;
+`
+const ResponsiveReactPlayer = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
 `
 
 class OneColumnVideo extends Component {
@@ -12,7 +22,7 @@ class OneColumnVideo extends Component {
       <Wrapper>
         <Container>
           <Row className="py-5  text-gray">
-            <Col className="text-center">Placeholder</Col>
+            <ResponsivePlayer />
           </Row>
         </Container>
       </Wrapper>
