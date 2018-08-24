@@ -34,7 +34,6 @@ class BM2physician extends Component {
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_500/v1534732188/product/bm2/BIO19474_BioMonitor_2.png"
           alt="BioMonitor 2"
         />
-        <OneColumnVideo />
       </Fragment>
     )
   }
