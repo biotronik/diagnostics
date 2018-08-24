@@ -15,6 +15,14 @@ import appletouchicon144x144 from '../images/apple-touch-icon-144x144.png'
 import appletouchicon152x152 from '../images/apple-touch-icon-152x152.png'
 import appletouchicon180x180 from '../images/apple-touch-icon-180x180.png'
 
+import appletouchstartupimage640x1136 from '../images/apple-touch-startup-image-640x1136.png'
+import appletouchstartupimage750x1294 from '../images/apple-touch-startup-image-750x1294.png'
+import appletouchstartupimage1125x2436 from '../images/apple-touch-startup-image-1125x2436.png'
+import appletouchstartupimage1242x2148 from '../images/apple-touch-startup-image-1242x2148.png'
+import appletouchstartupimage1536x2048 from '../images/apple-touch-startup-image-1536x2048.png'
+import appletouchstartupimage1668x2224 from '../images/apple-touch-startup-image-1668x2224.png'
+import appletouchstartupimage2048x2732 from '../images/apple-touch-startup-image-2048x2732.png'
+
 injectGlobal`
 html{
   -moz-osx-font-smoothing: grayscale;
@@ -78,6 +86,43 @@ const Layout = ({ children, data }) => (
         rel="apple-touch-icon"
         sizes="180x180"
         href={appletouchicon180x180}
+      />
+
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <link
+        href={appletouchstartupimage2048x2732}
+        sizes="2048x2732"
+        rel="apple-touch-startup-image"
+      />
+      <link
+        href={appletouchstartupimage1668x2224}
+        sizes="1668x2224"
+        rel="apple-touch-startup-image"
+      />
+      <link
+        href={appletouchstartupimage1536x2048}
+        sizes="1536x2048"
+        rel="apple-touch-startup-image"
+      />
+      <link
+        href={appletouchstartupimage1125x2436}
+        sizes="1125x2436"
+        rel="apple-touch-startup-image"
+      />
+      <link
+        href={appletouchstartupimage1242x2148}
+        sizes="1242x2148"
+        rel="apple-touch-startup-image"
+      />
+      <link
+        href={appletouchstartupimage750x1294}
+        sizes="750x1294"
+        rel="apple-touch-startup-image"
+      />
+      <link
+        href={appletouchstartupimage640x1136}
+        sizes="640x1136"
+        rel="apple-touch-startup-image"
       />
     </Helmet>
 
