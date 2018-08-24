@@ -14,9 +14,7 @@ class TwoColumnsImageText extends Component {
             />
           </Col>
           <Col md="6" className="py-4">
-            <h3 className="text-center pb-3 text-uppercase">
-              {this.props.listTitle}
-            </h3>
+            <h3 className="text-center pb-3">{this.props.listTitle}</h3>
             <ListGroup flush>
               {this.props.feature1 ? (
                 <ListGroupItem>{this.props.feature1}</ListGroupItem>
