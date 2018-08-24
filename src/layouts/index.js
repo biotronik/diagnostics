@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { injectGlobal } from 'styled-components'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
