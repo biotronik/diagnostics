@@ -5,17 +5,31 @@ import TwoColumnsTextImage from '../components/twoColumnsTextImage'
 import TwoColumnsImageText from '../components/twoColumnsImageText'
 import OneColumnQuote from '../components/oneColumnQuote'
 import OneColumnVideo from '../components/oneColumnVideo'
+import styled from 'styled-components'
 
+const Wrapper = styled.div`
+  background-image: url('https://via.placeholder.com/767x600');
+  @media (min-width: 768px) {
+    background-image: url('https://via.placeholder.com/1440x325');
+  }
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin-bottom: 0;
+`
 class BM2physician extends Component {
   render() {
     return (
       <Fragment>
-        <Banner
-          image=""
-          title="BioMonitor 2 Insertable Cardiac Monitor"
-          subtitle="Capture. Deliver. Precisely."
-          description="BioMonitor 2 is an insertable cardiac monitoring device designed to help physicians document evidence of a patient’s suspected cardiac arrhythmia or unexplained syncope.  Designed to accurately detect arrhythmias by delivering excellent signal quality, BioMonitor 2 offers the assurance of BIOTRONIK Home Monitoring reliability to deliver accurate episode detection with automatic daily transmissions and highly efficient alert management."
-        />
+        <Wrapper>
+          <Banner
+            image=""
+            title="BioMonitor 2 Insertable Cardiac Monitor"
+            subtitle="Capture. Deliver. Precisely."
+            description="BioMonitor 2 is an insertable cardiac monitoring device designed to help physicians document evidence of a patient’s suspected cardiac arrhythmia or unexplained syncope.  Designed to accurately detect arrhythmias by delivering excellent signal quality, BioMonitor 2 offers the assurance of BIOTRONIK Home Monitoring reliability to deliver accurate episode detection with automatic daily transmissions and highly efficient alert management."
+          />
+        </Wrapper>
+
         <TwoColumnsTextImage
           listTitle="Why BioMonitor 2?"
           feature1="Accurate detection – High signal amplitudes are important to improve overall signal-to-noise ratios, which have a direct impact on detection accuracy."

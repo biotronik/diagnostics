@@ -5,17 +5,7 @@ class Banner extends Component {
   render() {
     return (
       <Fragment>
-        <Jumbotron
-          fluid
-          style={{
-            backgroundImage: `url(${this.props.image})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            color: '#fff',
-            marginBottom: '0',
-            backgroundColor: '#00234C',
-          }}
-        >
+        <Jumbotron fluid style={{ background: 'none', marginBottom: '0' }}>
           <Container>
             <h1 className="display-6">{this.props.title}</h1>
             <p className="lead">{this.props.subtitle}</p>

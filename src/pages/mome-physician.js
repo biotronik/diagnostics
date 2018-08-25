@@ -4,17 +4,31 @@ import TwoColumnsTextImage from '../components/twoColumnsTextImage'
 import TwoColumnsImageText from '../components/twoColumnsImageText'
 import OneColumnQuote from '../components/oneColumnQuote'
 import OneColumnText from '../components/oneColumnText'
+import styled from 'styled-components'
+
+const Wrapper = styled.div`
+  background-image: url('https://via.placeholder.com/767x600');
+  @media (min-width: 768px) {
+    background-image: url('https://via.placeholder.com/1440x325');
+  }
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin-bottom: 0;
+`
 
 class MOMEphysician extends Component {
   render() {
     return (
       <Fragment>
-        <Banner
-          image=""
-          title="MoMe Kardia"
-          subtitle="Get the full picture "
-          description="MoMe Kardia  is a 3-in-1 ambulatory electrocardiograph detection and monitoring system that empowers physicians with accessible control over the data they need to diagnose and manage patients that are suspected of having or are experiencing cardiac arrhythmias."
-        />
+        <Wrapper>
+          <Banner
+            image=""
+            title="MoMe Kardia"
+            subtitle="Get the full picture "
+            description="MoMe Kardia  is a 3-in-1 ambulatory electrocardiograph detection and monitoring system that empowers physicians with accessible control over the data they need to diagnose and manage patients that are suspected of having or are experiencing cardiac arrhythmias."
+          />
+        </Wrapper>
         <OneColumnText text="MoMe Kardia is the first and only FDA approved deep-learning SaaS (software as a service) remote cardiac monitoring platform that replicates in-hospital monitoring to capture and stream beat-to-beat, full-disclosure cardiac data continuously, 24/7, for on-demand review." />
         <TwoColumnsImageText
           listTitle="Why MoMe Kardia?"

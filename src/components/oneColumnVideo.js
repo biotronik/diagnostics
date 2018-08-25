@@ -11,7 +11,7 @@ class OneColumnVideo extends Component {
   render() {
     return (
       <Wrapper>
-        <Container className="p-5">
+        <Container className="py-3">
           <Wistia video={this.props.video} />
         </Container>
       </Wrapper>
