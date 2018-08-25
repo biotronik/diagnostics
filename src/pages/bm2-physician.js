@@ -63,7 +63,10 @@ class BM2physician extends Component {
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_500/v1534732188/product/bm2/BIO19474_BioMonitor_2.png"
           alt="BioMonitor 2"
         />
-        <OneColumnVideo video="https://biotronik.wistia.com/medias/u0oh7jv8vw" />
+        <OneColumnVideo
+          title="Listen to Dr. Yunus on the future of ICM technologies"
+          video="https://biotronik.wistia.com/medias/u0oh7jv8vw"
+        />
       </Fragment>
     )
   }
