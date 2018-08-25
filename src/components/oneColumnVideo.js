@@ -12,7 +12,7 @@ class OneColumnVideo extends Component {
     return (
       <Wrapper>
         <Container className="py-4">
-          <h4 className="text-center pb-2 text-light">{this.props.title}</h4>
+          <p className="lead text-center text-light">{this.props.title}</p>
           <Wistia video={this.props.video} className="pb-3" />
         </Container>
       </Wrapper>
