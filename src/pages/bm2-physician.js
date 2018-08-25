@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import Banner from '../components/jumbotron'
-import { Container, Row, Col } from 'reactstrap'
+import { Container } from 'reactstrap'
 import TwoColumnsTextImage from '../components/twoColumnsTextImage'
 import TwoColumnsImageText from '../components/twoColumnsImageText'
 import OneColumnQuote from '../components/oneColumnQuote'
@@ -12,8 +12,8 @@ class BM2physician extends Component {
       <Fragment>
         <Banner
           image=""
-          title="Capture.  Deliver. Precisely."
-          subtitle="BioMonitor 2 Insertable Cardiac Monitor"
+          title="BioMonitor 2 Insertable Cardiac Monitor"
+          subtitle="Capture. Deliver. Precisely."
           description="BioMonitor 2 is an insertable cardiac monitoring device designed to help physicians document evidence of a patient’s suspected cardiac arrhythmia or unexplained syncope.  Designed to accurately detect arrhythmias by delivering excellent signal quality, BioMonitor 2 offers the assurance of BIOTRONIK Home Monitoring reliability to deliver accurate episode detection with automatic daily transmissions and highly efficient alert management."
         />
         <TwoColumnsTextImage
@@ -49,7 +49,7 @@ class BM2physician extends Component {
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_500/v1534732188/product/bm2/BIO19474_BioMonitor_2.png"
           alt="BioMonitor 2"
         />
-        <OneColumnVideo />
+        <OneColumnVideo video="https://biotronik.wistia.com/medias/u0oh7jv8vw" />
       </Fragment>
     )
   }

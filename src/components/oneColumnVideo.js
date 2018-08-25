@@ -4,16 +4,15 @@ import styled from 'styled-components'
 import Wistia from './wistiaPlayer'
 
 const Wrapper = styled.div`
-  background-color: #00234c;
+  background-color: #587992;
 `
 
 class OneColumnVideo extends Component {
   render() {
     return (
       <Wrapper>
-        <Container>
-          <Row className="py-5  text-gray" />
-          <Wistia />
+        <Container className="p-5">
+          <Wistia video={this.props.video} />
         </Container>
       </Wrapper>
     )

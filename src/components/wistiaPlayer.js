@@ -8,7 +8,7 @@ class ResponsivePlayer extends Component {
       <div className="player-wrapper">
         <ReactPlayer
           className="react-player"
-          url="https://biotronik.wistia.com/medias/u0oh7jv8vw"
+          url={this.props.video}
           width="100%"
           height="100%"
         />
