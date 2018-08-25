@@ -9,7 +9,7 @@ class ProductGrid extends Component {
         <Row>
           <Products
             image={
-              'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,q_60,w_540/v1534732188/product/bm2/BIO19474_BioMonitor_2.png'
+              'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg'
             }
             title={'Capture. Deliver. Precisely'}
             subtitle={'BioMonitor 2'}
@@ -21,7 +21,7 @@ class ProductGrid extends Component {
           />
           <Products
             image={
-              'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,q_60,w_540/v1534728216/product/mome/ZE1A4149_DxO.png'
+              'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg'
             }
             title={'Get the full picture'}
             subtitle={'MoMe Kardia'}

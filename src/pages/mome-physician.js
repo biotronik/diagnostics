@@ -23,7 +23,6 @@ class MOMEphysician extends Component {
       <Fragment>
         <Wrapper>
           <Banner
-            image=""
             title="MoMe Kardia"
             subtitle="Get the full picture "
             description="MoMe Kardia  is a 3-in-1 ambulatory electrocardiograph detection and monitoring system that empowers physicians with accessible control over the data they need to diagnose and manage patients that are suspected of having or are experiencing cardiac arrhythmias."
@@ -36,7 +35,7 @@ class MOMEphysician extends Component {
           feature2="Ease of use and resource optimization – Automatically and continuously streams full-disclosure data to the cloud for analysis"
           feature3="Ownership – Practices gain full control over diagnostic workflow, including billing for both technical and professional services"
           feature4="Approved for full-body 1.5 T and 3.0 T MRI scanning"
-          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,q_60,w_500/v1534728216/product/mome/ZE1A4149_DxO.png"
+          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="BioMonitor 2"
         />
         <OneColumnQuote
@@ -48,7 +47,7 @@ class MOMEphysician extends Component {
           feature1="Full Disclosure Data – 3-in-1 device transitions between Holter, Event, and MCT modes;  onset, offset, and event coordination data are available 24/7"
           feature2="Wireless device with automated analysis in the cloud – Provides a unique means to capture and analyze the patient’s cardiac data, with easy access to results"
           feature3="Efficient practice management – Alerts may be programmed remotely and are customizable for groups or individual patients"
-          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,q_60,w_500/v1534728216/product/mome/ZE1A4149_DxO.png"
+          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           feature4="MRI Compatible – Allows access to the most common, as well as access to the highest quality, imaging currently available"
           alt="BioMonitor 2"
         />
