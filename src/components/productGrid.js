@@ -4,6 +4,7 @@ import { Container, Row } from 'reactstrap'
 
 class ProductGrid extends Component {
   render() {
+    console.log(this.props.data)
     return (
       <Container>
         <Row>

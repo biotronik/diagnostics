@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
+import { Container, Row } from 'reactstrap'
 import Banner from '../components/jumbotron'
-import ProductGrid from '../components/productGrid'
+import Products from '../components/products'
 import OneColumnText from '../components/oneColumnText'
 import styled from 'styled-components'
 
@@ -17,27 +18,65 @@ const Wrapper = styled.div`
 
 class IndexPage extends Component {
   render() {
+    console.log(this.props.data.allContentfulProductCard.edges[0])
     return (
       <Fragment>
         <Wrapper>
           <Banner
             image=""
-            title={this.props.data.contentfulHomePage.title}
-            subtitle={this.props.data.contentfulHomePage.subtitle}
-            description="BIOTRONIK matches technology to the human body to advance health
-          and well-being with a comprehensive portfolio of cardiovascular
-          solutions that are unmatched in safety and reliability."
+            heroTitle={this.props.data.contentfulHomePage.heroTitle}
+            heroSubtitle={this.props.data.contentfulHomePage.heroSubtitle}
+            heroDescription={
+              this.props.data.contentfulHomePage.heroDescription
+                .childMarkdownRemark.html
+            }
           />
         </Wrapper>
 
         <OneColumnText
-          text={
-            this.props.data.contentfulHomePage.description.childMarkdownRemark
+          textBlock={
+            this.props.data.contentfulHomePage.textBlock.childMarkdownRemark
               .html
           }
         />
-
-        <ProductGrid />
+        <Container>
+          <Row>
+            <Products
+              image={
+                'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg'
+              }
+              title={
+                this.props.data.allContentfulProductCard.edges[1].node.title
+              }
+              subtitle={
+                this.props.data.allContentfulProductCard.edges[1].node.subtitle
+              }
+              shortDescription={
+                this.props.data.allContentfulProductCard.edges[1].node
+                  .shortDescription.shortDescription
+              }
+              physicianLink={'/bm2-physician'}
+              patientLink={'/bm2-patient'}
+            />
+            <Products
+              image={
+                'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg'
+              }
+              title={
+                this.props.data.allContentfulProductCard.edges[0].node.title
+              }
+              subtitle={
+                this.props.data.allContentfulProductCard.edges[0].node.subtitle
+              }
+              shortDescription={
+                this.props.data.allContentfulProductCard.edges[0].node
+                  .shortDescription.shortDescription
+              }
+              physicianLink={'/mome-physician'}
+              patientLink={'/mome-physician'}
+            />
+          </Row>
+        </Container>
       </Fragment>
     )
   }
@@ -48,14 +87,15 @@ export default IndexPage
 export const query = graphql`
   query Hero {
     contentfulHomePage {
-      id
-      title
-      subtitle
-      description {
-        id
-        description
+      heroTitle
+      heroSubtitle
+      heroDescription {
         childMarkdownRemark {
-          id
+          html
+        }
+      }
+      textBlock {
+        childMarkdownRemark {
           html
         }
       }
@@ -63,21 +103,15 @@ export const query = graphql`
     allContentfulProductCard {
       edges {
         node {
+          id
           title
           subtitle
           shortDescription {
             shortDescription
+            childMarkdownRemark {
+              html
+            }
           }
-        }
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___title], order: DESC }) {
-      edges {
-        node {
-          parent {
-            id
-          }
-          html
         }
       }
     }

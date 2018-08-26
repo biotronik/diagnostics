@@ -7,10 +7,12 @@ class Banner extends Component {
       <Fragment>
         <Jumbotron fluid style={{ background: 'none', marginBottom: '0' }}>
           <Container>
-            <h1 className="display-6">{this.props.title}</h1>
-            <p className="lead">{this.props.subtitle}</p>
+            <h1 className="display-6">{this.props.heroTitle}</h1>
+            <p className="lead">{this.props.heroSubtitle}</p>
             <hr className="my-2" />
-            <p>{this.props.description}</p>
+            <div
+              dangerouslySetInnerHTML={{ __html: this.props.heroDescription }}
+            />
           </Container>
         </Jumbotron>
       </Fragment>
