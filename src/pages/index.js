@@ -22,8 +22,8 @@ class IndexPage extends Component {
         <Wrapper>
           <Banner
             image=""
-            title={this.props.data.contentfulHeroSection.title}
-            subtitle={this.props.data.contentfulHeroSection.subtitle}
+            title={this.props.data.contentfulHomePage.title}
+            subtitle={this.props.data.contentfulHomePage.subtitle}
             description="BIOTRONIK matches technology to the human body to advance health
           and well-being with a comprehensive portfolio of cardiovascular
           solutions that are unmatched in safety and reliability."
@@ -31,7 +31,10 @@ class IndexPage extends Component {
         </Wrapper>
 
         <OneColumnText
-          text={this.props.data.contentfulHeroSection.description.description}
+          text={
+            this.props.data.contentfulHomePage.description.childMarkdownRemark
+              .html
+          }
         />
 
         <ProductGrid />
@@ -44,13 +47,38 @@ export default IndexPage
 
 export const query = graphql`
   query Hero {
-    contentfulHeroSection {
+    contentfulHomePage {
       id
       title
       subtitle
       description {
         id
         description
+        childMarkdownRemark {
+          id
+          html
+        }
+      }
+    }
+    allContentfulProductCard {
+      edges {
+        node {
+          title
+          subtitle
+          shortDescription {
+            shortDescription
+          }
+        }
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___title], order: DESC }) {
+      edges {
+        node {
+          parent {
+            id
+          }
+          html
+        }
       }
     }
   }
