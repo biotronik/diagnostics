@@ -21,13 +21,13 @@ class Products extends Component {
               {this.props.title}
             </CardTitle>
             <CardTitle className="h4">{this.props.subtitle}</CardTitle>
-            <CardText>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: this.props.shortDescription,
-                }}
-              />
-            </CardText>
+
+            <div
+              dangerouslySetInnerHTML={{
+                __html: this.props.shortDescription,
+              }}
+            />
+
             <CardText className="align-items-end d-flex justify-content-between align-items-end">
               <Link to={this.props.physicianLink}>
                 <Button color="link">For Physicans</Button>

@@ -18,7 +18,10 @@ const Wrapper = styled.div`
 
 class IndexPage extends Component {
   render() {
-    console.log(this.props.data.allContentfulProductCard.edges[0])
+    console.log(
+      this.props.data.allContentfulProductCard.edges[0].node.shortDescription
+        .childMarkdownRemark.html
+    )
     return (
       <Fragment>
         <Wrapper>
@@ -53,7 +56,7 @@ class IndexPage extends Component {
               }
               shortDescription={
                 this.props.data.allContentfulProductCard.edges[1].node
-                  .shortDescription.shortDescription
+                  .shortDescription.childMarkdownRemark.html
               }
               physicianLink={'/bm2-physician'}
               patientLink={'/bm2-patient'}
@@ -70,7 +73,7 @@ class IndexPage extends Component {
               }
               shortDescription={
                 this.props.data.allContentfulProductCard.edges[0].node
-                  .shortDescription.shortDescription
+                  .shortDescription.childMarkdownRemark.html
               }
               physicianLink={'/mome-physician'}
               patientLink={'/mome-physician'}
