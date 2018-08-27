@@ -22,20 +22,20 @@ class IndexPage extends Component {
       <Fragment>
         <Wrapper>
           <Banner
-            heroTitle="{this.props.data.contentfulHomePage.heroTitle}"
-            heroSubtitle="{this.props.data.contentfulHomePage.heroSubtitle}"
-            heroDescription="{
+            heroTitle={this.props.data.contentfulHomePage.heroTitle}
+            heroSubtitle={this.props.data.contentfulHomePage.heroSubtitle}
+            heroDescription={
               this.props.data.contentfulHomePage.heroDescription
                 .childMarkdownRemark.html
-            }"
+            }
           />
         </Wrapper>
 
         <OneColumnText
-          textBlock="{
+          textBlock={
             this.props.data.contentfulHomePage.textBlock.childMarkdownRemark
               .html
-          }"
+          }
         />
         <Container>
           <Row>
@@ -43,35 +43,47 @@ class IndexPage extends Component {
               image={
                 'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg'
               }
-              title="{
+              title={
                 this.props.data.allContentfulProductCard.edges[1].node.title
-              }"
-              subtitle="{
+              }
+              subtitle={
                 this.props.data.allContentfulProductCard.edges[1].node.subtitle
-              }"
-              shortDescription="{
+              }
+              shortDescription={
                 this.props.data.allContentfulProductCard.edges[1].node
                   .shortDescription.childMarkdownRemark.html
-              }"
-              physicianLink="/bm2-physician"
-              patientLink="/bm2-patient"
+              }
+              physicianLink={
+                this.props.data.allContentfulProductCard.edges[1].node
+                  .physicianLink
+              }
+              patientLink={
+                this.props.data.allContentfulProductCard.edges[1].node
+                  .patientLink
+              }
             />
             <Products
               image={
                 'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg'
               }
-              title="{
+              title={
                 this.props.data.allContentfulProductCard.edges[0].node.title
-              }"
-              subtitle="{
+              }
+              subtitle={
                 this.props.data.allContentfulProductCard.edges[0].node.subtitle
-              }"
-              shortDescription="{
+              }
+              shortDescription={
                 this.props.data.allContentfulProductCard.edges[0].node
                   .shortDescription.childMarkdownRemark.html
-              }"
-              physicianLink="/mome-physician"
-              patientLink="/mome-patient"
+              }
+              physicianLink={
+                this.props.data.allContentfulProductCard.edges[0].node
+                  .physicianLink
+              }
+              patientLink={
+                this.props.data.allContentfulProductCard.edges[0].node
+                  .physicianLink
+              }
             />
           </Row>
         </Container>
@@ -81,3 +93,39 @@ class IndexPage extends Component {
 }
 
 export default IndexPage
+
+export const query = graphql`
+  query Hero {
+    contentfulHomePage {
+      heroTitle
+      heroSubtitle
+      heroDescription {
+        childMarkdownRemark {
+          html
+        }
+      }
+      textBlock {
+        childMarkdownRemark {
+          html
+        }
+      }
+    }
+    allContentfulProductCard {
+      edges {
+        node {
+          id
+          title
+          subtitle
+          patientLink
+          physicianLink
+          shortDescription {
+            shortDescription
+            childMarkdownRemark {
+              html
+            }
+          }
+        }
+      }
+    }
+  }
+`

@@ -23,20 +23,20 @@ class BM2patient extends Component {
       <Fragment>
         <Wrapper>
           <Banner
-            heroTitle={this.props.data.contentfulProductPage.heroTitle}
-            heroSubtitle={this.props.data.contentfulProductPage.heroSubtitle}
-            heroDescription={
+            heroTitle="{this.props.data.contentfulProductPage.heroTitle}"
+            heroSubtitle="{this.props.data.contentfulProductPage.heroSubtitle}"
+            heroDescription="{
               this.props.data.contentfulProductPage.heroDescription
-            }
+            }"
           />
         </Wrapper>
 
         <TwoColumnsTextImage
           listTitle="Why BioMonitor 2?"
-          featureA={this.props.data.contentfulProductPage.feature1a}
-          featureB={this.props.data.contentfulProductPage.feature1b}
-          featureC={this.props.data.contentfulProductPage.feature1c}
-          featureD={this.props.data.contentfulProductPage.feature1d}
+          featureA="{this.props.data.contentfulProductPage.feature1a}"
+          featureB="{this.props.data.contentfulProductPage.feature1b}"
+          featureC="{this.props.data.contentfulProductPage.feature1c}"
+          featureD="{this.props.data.contentfulProductPage.feature1d}"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg"
           alt="BioMonitor 2"
         />
@@ -57,10 +57,10 @@ class BM2patient extends Component {
         />
         <TwoColumnsImageText
           listTitle="How Does BioMonitor 2 Work?"
-          featureA={this.props.data.contentfulProductPage.feature2a}
-          featureB={this.props.data.contentfulProductPage.feature2b}
-          featureC={this.props.data.contentfulProductPage.feature2c}
-          featureD={this.props.data.contentfulProductPage.feature2d}
+          featureA="{this.props.data.contentfulProductPage.feature2a}"
+          featureB="{this.props.data.contentfulProductPage.feature2b}"
+          featureC="{this.props.data.contentfulProductPage.feature2c}"
+          featureD="{this.props.data.contentfulProductPage.feature2d}"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg"
           alt="BioMonitor 2"
         />
@@ -74,26 +74,3 @@ class BM2patient extends Component {
 }
 
 export default BM2patient
-
-export const query = graphql`
-  query BM2PatientPageQuery {
-    contentfulProductPage(contentful_id: { eq: "3XswCihkBy4IIGUmM2msAi" }) {
-      heroTitle
-      heroSubtitle
-      heroDescription
-      contentBlock1 {
-        childMarkdownRemark {
-          html
-        }
-      }
-      benefit1
-      feature1a
-      feature1b
-      feature1c
-      benefit2
-      feature2a
-      feature2b
-      feature2c
-    }
-  }
-`

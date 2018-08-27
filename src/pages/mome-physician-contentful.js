@@ -23,24 +23,24 @@ class MOMEphysician extends Component {
       <Fragment>
         <Wrapper>
           <Banner
-            heroTitle="{this.props.data.contentfulProductPage.heroTitle}"
-            heroSubtitle="{this.props.data.contentfulProductPage.heroSubtitle}"
-            heroDescription="{
+            heroTitle={this.props.data.contentfulProductPage.heroTitle}
+            heroSubtitle={this.props.data.contentfulProductPage.heroSubtitle}
+            heroDescription={
               this.props.data.contentfulProductPage.heroDescription
-            }"
+            }
           />
         </Wrapper>
         <OneColumnText
-          textBlock="{
+          textBlock={
             this.props.data.contentfulProductPage.contentBlock1
               .childMarkdownRemark.html
-          }"
+          }
         />
         <TwoColumnsImageText
           listTitle="Why MoMe Kardia?"
-          featureA="{this.props.data.contentfulProductPage.feature1a}"
-          featureB="{this.props.data.contentfulProductPage.feature1b}"
-          featureC="{this.props.data.contentfulProductPage.feature1c}"
+          featureA={this.props.data.contentfulProductPage.feature1a}
+          featureB={this.props.data.contentfulProductPage.feature1b}
+          featureC={this.props.data.contentfulProductPage.feature1c}
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
         />
@@ -50,10 +50,10 @@ class MOMEphysician extends Component {
         />
         <TwoColumnsTextImage
           listTitle="How does MoMe Kardia work?"
-          featureA="{this.props.data.contentfulProductPage.feature2a}"
-          featureB="{this.props.data.contentfulProductPage.feature2b}"
-          featureC="{this.props.data.contentfulProductPage.feature2c}"
-          featureD="{this.props.data.contentfulProductPage.feature2d}"
+          featureA={this.props.data.contentfulProductPage.feature2a}
+          featureB={this.props.data.contentfulProductPage.feature2b}
+          featureC={this.props.data.contentfulProductPage.feature2c}
+          featureD={this.props.data.contentfulProductPage.feature2d}
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
         />
@@ -63,3 +63,36 @@ class MOMEphysician extends Component {
 }
 
 export default MOMEphysician
+
+export const query = graphql`
+  query MOMEPhysicanPageQuery {
+    contentfulProductPage(contentful_id: { eq: "5cIO8KHxCEeU8k6yQGqac0" }) {
+      heroTitle
+      heroSubtitle
+      heroDescription
+      contentBlock1 {
+        childMarkdownRemark {
+          html
+        }
+      }
+      benefit1
+      feature1a
+      feature1b
+      feature1c
+      benefit2
+      feature2a
+      feature2b
+      feature2c
+      contentBlock2 {
+        childMarkdownRemark {
+          html
+        }
+      }
+      contentBlock3 {
+        childMarkdownRemark {
+          html
+        }
+      }
+    }
+  }
+`

@@ -14,7 +14,10 @@ class OneColumnText extends Component {
         <Container className="mb-4">
           <Row className="py-5">
             <Col className="text-center">
-              <p className="lead">{this.props.text}</p>
+              <div
+                className="lead"
+                dangerouslySetInnerHTML={{ __html: this.props.textBlock }}
+              />
             </Col>
           </Row>
         </Container>
