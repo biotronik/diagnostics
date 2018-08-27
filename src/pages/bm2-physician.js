@@ -33,9 +33,13 @@ class BM2physician extends Component {
         <TwoColumnsTextImage
           listTitle="Why BioMonitor 2?"
           featureA="Accurate detection-- High signal amplitudes are important to improve overall signal-to-noise ratios, which have a direct impact on detection accuracy."
+          benefitA="Delivers  essential information -- BioMonitor 2 provides excellent signal quality, both at implant and at follow-up, for accurate and reliable arrhythmia detection"
           featureB="Performance, reliability, and ease of use -- BIOTRONIK Home Monitoring performance is well documented both in clinical studies such as TRUST* and in over 17 years of real-world application."
+          benefitB="Supports clinic goals -- Allows clinics to improve patient outcomes and efficiency of clinical operations"
           featureC="Efficient practice management – Alerts may be programmed remotely and are customizable for groups or individual patients"
+          benefitC="Simplifies clinic workload -- Reduces data management strain on device clinic"
           featureD="MRI Compatible -- Allows access to the most common, as well as access to the highest quality, imaging currently available"
+          benefitD="Assurance of continuous cardiac monitoring in conjunction with MRI"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg"
           alt="BioMonitor 2"
         />
@@ -60,7 +64,7 @@ class BM2physician extends Component {
           featureA="Excellent signal quality – High R-wave amplitude and low noise burden provide signal clarity"
           featureB="BIOTRONIK Home Monitoring® – BioMonitor 2 includes BIOTRONIK Home Monitoring, the only fully automatic, daily monitoring system for cardiac implantable or insertable devices"
           featureC="Flexible, efficient alert management – Robust, customizable alert parameters"
-          featureD="{this.props.data.contentfulProductPage.feature2d}"
+          featureD="Approved for full-body 1.5 T and 3.0 T MRI scanning"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg"
           alt="BioMonitor 2"
         />

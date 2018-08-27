@@ -17,22 +17,40 @@ class TwoColumnsImageText extends Component {
             <h3 className="text-center pb-3">{this.props.listTitle}</h3>
             <ListGroup flush>
               {this.props.featureA ? (
-                <ListGroupItem>{this.props.featureA}</ListGroupItem>
+                <ListGroupItem>
+                  <p>{this.props.featureA}</p>
+                  <h6>{this.props.benefitA}</h6>
+                </ListGroupItem>
               ) : null}
               {this.props.featureB ? (
-                <ListGroupItem>{this.props.featureB}</ListGroupItem>
+                <ListGroupItem>
+                  <p>{this.props.featureB}</p>
+                  <h6>{this.props.benefitB}</h6>
+                </ListGroupItem>
               ) : null}
               {this.props.featureC ? (
-                <ListGroupItem>{this.props.featureC}</ListGroupItem>
+                <ListGroupItem>
+                  <p>{this.props.featureC}</p>
+                  <h6>{this.props.benefitC}</h6>
+                </ListGroupItem>
               ) : null}
               {this.props.featureD ? (
-                <ListGroupItem>{this.props.featureD}</ListGroupItem>
+                <ListGroupItem>
+                  <p>{this.props.featureD}</p>
+                  <h6>{this.props.benefitD}</h6>
+                </ListGroupItem>
               ) : null}
               {this.props.featureE ? (
-                <ListGroupItem>{this.props.featureE}</ListGroupItem>
+                <ListGroupItem>
+                  <p>{this.props.featureE}</p>
+                  <h6>{this.props.benefitE}</h6>
+                </ListGroupItem>
               ) : null}
               {this.props.featureF ? (
-                <ListGroupItem>{this.props.featureF}</ListGroupItem>
+                <ListGroupItem>
+                  <p>{this.props.featureF}</p>
+                  <h6>{this.props.benefitF}</h6>
+                </ListGroupItem>
               ) : null}
             </ListGroup>
           </Col>

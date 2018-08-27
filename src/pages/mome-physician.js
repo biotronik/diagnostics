@@ -32,8 +32,11 @@ class MOMEphysician extends Component {
         <TwoColumnsImageText
           listTitle="Why MoMe Kardia?"
           featureA="Enhanced Workflow – Practices have fast and easy access to complete data, on-demand, anywhere, anytime"
+          benefitA="Faster diagnosis -- Reduced time to diagnosis and decision making enables physicians to intervene more quickly, as needed"
           featureB="Ease of use and resource optimization – Automatically and continuously streams full-disclosure data to the cloud for analysis"
+          benefitB="Clinically optimized technology -- Immediate processing of streaming data, with multi-algorithm analysis, full data and deep learning in the cloud"
           featureC="Ownership – Practices gain full control over diagnostic workflow, including billing for both technical and professional services"
+          benefitC="Control and predictability – Practice takes charge of operations for cardiac ambulatory monitoring"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
         />
@@ -48,6 +51,10 @@ class MOMEphysician extends Component {
           featureC="Eliminates the need for a third-party service provider —Fully integrated solution requires no external service reporting	"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
+        />
+        <OneColumnText
+          title="What's Next?"
+          text="Request in-Person Demo: customersolutions@biotronik.com"
         />
       </Fragment>
     )
