@@ -32,9 +32,9 @@ html{
 
 }
   body {
-    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-      'Lucida Grande', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+      'Lucida Grande';
+    font-weight: 400;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -58,6 +58,10 @@ const Layout = ({ children, data }) => (
       <meta
         name="keywords"
         content="cardiac diagnostics, arrhythmia, heart, biotronik"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,700i"
+        rel="stylesheet"
       />
       <link rel="apple-touch-icon" sizes="57x57" href={appletouchicon57x57} />
       <link rel="apple-touch-icon" sizes="72x72" href={appletouchicon72x72} />

@@ -12,49 +12,61 @@ class TwoColumnsTextImage extends Component {
               {this.props.featureA ? (
                 <ListGroupItem>
                   <p>{this.props.featureA}</p>
-                  <h6>
-                    <i>{this.props.benefitA}</i>
-                  </h6>
+                  <p>
+                    <i>
+                      <b>{this.props.benefitA}</b>
+                    </i>
+                  </p>
                 </ListGroupItem>
               ) : null}
               {this.props.featureB ? (
                 <ListGroupItem>
                   <p>{this.props.featureB}</p>
-                  <i>
-                    <h6>{this.props.benefitB}</h6>
-                  </i>
+                  <p>
+                    <i>
+                      <b>{this.props.benefitB}</b>
+                    </i>
+                  </p>
                 </ListGroupItem>
               ) : null}
               {this.props.featureC ? (
                 <ListGroupItem>
                   <p>{this.props.featureC}</p>
-                  <i>
-                    <h6>{this.props.benefitC}</h6>
-                  </i>
+                  <p>
+                    <i>
+                      <b>{this.props.benefitC}</b>
+                    </i>
+                  </p>
                 </ListGroupItem>
               ) : null}
               {this.props.featureD ? (
                 <ListGroupItem>
                   <p>{this.props.featureD}</p>
-                  <i>
-                    <h6>{this.props.benefitD}</h6>
-                  </i>
+                  <p>
+                    <i>
+                      <b>{this.props.benefitD}</b>
+                    </i>
+                  </p>
                 </ListGroupItem>
               ) : null}
               {this.props.featureE ? (
                 <ListGroupItem>
                   <p>{this.props.featureE}</p>
-                  <i>
-                    <h6>{this.props.benefitE}</h6>
-                  </i>
+                  <p>
+                    <i>
+                      <b>{this.props.benefitE}</b>
+                    </i>
+                  </p>
                 </ListGroupItem>
               ) : null}
               {this.props.featureF ? (
                 <ListGroupItem>
                   <p>{this.props.featureF}</p>
-                  <i>
-                    <h6>{this.props.benefitF}</h6>
-                  </i>
+                  <p>
+                    <i>
+                      <b>{this.props.benefitF}</b>
+                    </i>
+                  </p>
                 </ListGroupItem>
               ) : null}
             </ListGroup>
