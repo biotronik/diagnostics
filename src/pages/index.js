@@ -18,15 +18,10 @@ const Wrapper = styled.div`
 
 class IndexPage extends Component {
   render() {
-    console.log(
-      this.props.data.allContentfulProductCard.edges[0].node.shortDescription
-        .childMarkdownRemark.html
-    )
     return (
       <Fragment>
         <Wrapper>
           <Banner
-            image=""
             heroTitle={this.props.data.contentfulHomePage.heroTitle}
             heroSubtitle={this.props.data.contentfulHomePage.heroSubtitle}
             heroDescription={
@@ -58,8 +53,14 @@ class IndexPage extends Component {
                 this.props.data.allContentfulProductCard.edges[1].node
                   .shortDescription.childMarkdownRemark.html
               }
-              physicianLink={'/bm2-physician'}
-              patientLink={'/bm2-patient'}
+              physicianLink={
+                this.props.data.allContentfulProductCard.edges[1].node
+                  .physicianLink
+              }
+              patientLink={
+                this.props.data.allContentfulProductCard.edges[1].node
+                  .patientLink
+              }
             />
             <Products
               image={
@@ -75,8 +76,14 @@ class IndexPage extends Component {
                 this.props.data.allContentfulProductCard.edges[0].node
                   .shortDescription.childMarkdownRemark.html
               }
-              physicianLink={'/mome-physician'}
-              patientLink={'/mome-physician'}
+              physicianLink={
+                this.props.data.allContentfulProductCard.edges[0].node
+                  .physicianLink
+              }
+              patientLink={
+                this.props.data.allContentfulProductCard.edges[0].node
+                  .physicianLink
+              }
             />
           </Row>
         </Container>
@@ -109,6 +116,8 @@ export const query = graphql`
           id
           title
           subtitle
+          patientLink
+          physicianLink
           shortDescription {
             shortDescription
             childMarkdownRemark {

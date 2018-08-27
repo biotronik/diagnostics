@@ -16,23 +16,23 @@ class TwoColumnsImageText extends Component {
           <Col md="6" className="py-4">
             <h3 className="text-center pb-3">{this.props.listTitle}</h3>
             <ListGroup flush>
-              {this.props.feature1 ? (
-                <ListGroupItem>{this.props.feature1}</ListGroupItem>
+              {this.props.featureA ? (
+                <ListGroupItem>{this.props.featureA}</ListGroupItem>
               ) : null}
-              {this.props.feature2 ? (
-                <ListGroupItem>{this.props.feature2}</ListGroupItem>
+              {this.props.featureB ? (
+                <ListGroupItem>{this.props.featureB}</ListGroupItem>
               ) : null}
-              {this.props.feature3 ? (
-                <ListGroupItem>{this.props.feature3}</ListGroupItem>
+              {this.props.featureC ? (
+                <ListGroupItem>{this.props.featureC}</ListGroupItem>
               ) : null}
-              {this.props.feature4 ? (
-                <ListGroupItem>{this.props.feature4}</ListGroupItem>
+              {this.props.featureD ? (
+                <ListGroupItem>{this.props.featureD}</ListGroupItem>
               ) : null}
-              {this.props.feature5 ? (
-                <ListGroupItem>{this.props.feature5}</ListGroupItem>
+              {this.props.featureE ? (
+                <ListGroupItem>{this.props.featureE}</ListGroupItem>
               ) : null}
-              {this.props.feature6 ? (
-                <ListGroupItem>{this.props.feature6}</ListGroupItem>
+              {this.props.featureF ? (
+                <ListGroupItem>{this.props.featureF}</ListGroupItem>
               ) : null}
             </ListGroup>
           </Col>
