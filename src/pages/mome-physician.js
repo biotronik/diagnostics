@@ -41,8 +41,8 @@ class MOMEphysician extends Component {
           alt="MoMe Kardia"
         />
         <OneColumnQuote
-          quote="Last week I put MCT [MoMe®] on a patient … and it picked up 10-14 second asystolic events the following morning, and I was able to get a pacemaker in him that morning. No hospital telemetry stay, no ED visit, no unnecessary workups, no delay in diagnosis due to extended Holter … plus full disclosure data otherwise not available to clinicians with traditional IDTF type MCT. Less than 24 hours from MCT hookup to definitive treatment. That’s tremendous value to patients, clinicians, hospitals, and payers."
-          physician="Michael Mazzini, MD"
+          quote="MoMe Kardia is the only system that allows me to verify reported events, as well as review onset and offset data to identify event triggers. It truly is the new gold standard for user friendly full disclosure."
+          physician="Colin Movsowitz, MD"
         />
         <TwoColumnsTextImage
           listTitle="How does MoMe Kardia work?"
