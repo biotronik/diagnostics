@@ -25,7 +25,7 @@ class MOMEpatient extends Component {
           <Banner
             heroTitle="MoMe Kardia"
             heroSubtitle="Provides the full picture"
-            heroDescription=":  MoMe Kardia is a mobile monitoring system that assists your physician in diagnosing heartbeat irregularities that may cause symptoms such as palpitations, fatigue, and fainting."
+            heroDescription="MoMe Kardia is a mobile monitoring system that assists your physician in diagnosing heartbeat irregularities that may cause symptoms such as palpitations, fatigue, and fainting."
           />
         </Wrapper>
         <OneColumnText text=" It consists of three small stick-on patches that connect to a cellular transmission unit used for sending medical information to your physician for decisions about your treatment and care." />
