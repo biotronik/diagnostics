@@ -11,9 +11,10 @@ class OneColumnText extends Component {
   render() {
     return (
       <Wrapper>
-        <Container className="mb-4">
+        <Container>
           <Row className="py-5">
             <Col className="text-center">
+              <h3>{this.props.title}</h3>
               <p className="lead">{this.props.text}</p>
             </Col>
           </Row>

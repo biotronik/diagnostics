@@ -7,9 +7,9 @@ import OneColumnText from '../components/oneColumnText'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  background-image: url('https://via.placeholder.com/767x600');
+  background-image: url('https://res.cloudinary.com/binc/image/upload/v1535390546/product/767x600_MoMe_2.jpg');
   @media (min-width: 768px) {
-    background-image: url('https://via.placeholder.com/1440x325');
+    background-image: url('https://res.cloudinary.com/binc/image/upload/v1535390263/product/1440x325_MoMe_2.jpg');
   }
   background-size: cover;
   background-position: center;
@@ -23,24 +23,17 @@ class MOMEphysician extends Component {
       <Fragment>
         <Wrapper>
           <Banner
-            heroTitle="{this.props.data.contentfulProductPage.heroTitle}"
-            heroSubtitle="{this.props.data.contentfulProductPage.heroSubtitle}"
-            heroDescription="{
-              this.props.data.contentfulProductPage.heroDescription
-            }"
+            heroTitle="MoMe Kardia"
+            heroSubtitle="Get the full picture"
+            heroDescription="MoMe Kardia  is a 3-in-1 ambulatory electrocardiograph detection and monitoring system that empowers physicians with accessible control over the data they need to diagnose and manage patients that are suspected of having or are experiencing cardiac arrhythmias."
           />
         </Wrapper>
-        <OneColumnText
-          textBlock="{
-            this.props.data.contentfulProductPage.contentBlock1
-              .childMarkdownRemark.html
-          }"
-        />
+        <OneColumnText text="MoMe Kardia is the first and only FDA approved deep-learning SaaS (software as a service) remote cardiac monitoring platform that replicates in-hospital monitoring to capture and stream beat-to-beat, full-disclosure cardiac data continuously, 24/7, for on-demand review." />
         <TwoColumnsImageText
           listTitle="Why MoMe Kardia?"
-          featureA="{this.props.data.contentfulProductPage.feature1a}"
-          featureB="{this.props.data.contentfulProductPage.feature1b}"
-          featureC="{this.props.data.contentfulProductPage.feature1c}"
+          featureA="Enhanced Workflow – Practices have fast and easy access to complete data, on-demand, anywhere, anytime"
+          featureB="Ease of use and resource optimization – Automatically and continuously streams full-disclosure data to the cloud for analysis"
+          featureC="Ownership – Practices gain full control over diagnostic workflow, including billing for both technical and professional services"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
         />
@@ -50,10 +43,9 @@ class MOMEphysician extends Component {
         />
         <TwoColumnsTextImage
           listTitle="How does MoMe Kardia work?"
-          featureA="{this.props.data.contentfulProductPage.feature2a}"
-          featureB="{this.props.data.contentfulProductPage.feature2b}"
-          featureC="{this.props.data.contentfulProductPage.feature2c}"
-          featureD="{this.props.data.contentfulProductPage.feature2d}"
+          featureA="Full Disclosure Data – 3-in-1 device transitions between Holter, Event, and MCT modes;  onset, offset, and event coordination data are available 24/7"
+          featureB="Wireless device with automated analysis in the cloud – Provides a unique means to capture and analyze the patient’s cardiac data, with easy access to results"
+          featureC="Eliminates the need for a third-party service provider —Fully integrated solution requires no external service reporting	"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
         />

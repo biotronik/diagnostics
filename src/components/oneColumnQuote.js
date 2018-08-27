@@ -13,8 +13,9 @@ class OneColumnQuote extends Component {
       <Wrapper>
         <Container>
           <Row>
-            <Col className="py-4">
-              <blockquote className="blockquote text-center">
+            <Col className="py-4  text-center">
+              <h3>{this.props.title}</h3>
+              <blockquote className="blockquote">
                 <p className="mb-0">"{this.props.quote}"</p>
                 <footer className="blockquote-footer text-light">
                   {this.props.physician}

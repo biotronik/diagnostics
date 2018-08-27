@@ -36,12 +36,18 @@ class Header extends React.Component {
           isOpen: false,
         })
   }
+
   render() {
     return (
       <Container>
         <Navbar light expand="md" style={{ padding: '.5rem 0rem' }}>
           <Link exact to="/">
-            <img src={logoImg} alt="Logo" width="150px" height="50px" />
+            <img
+              src="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_142/v1535137868/web/bio_logo.png"
+              alt="Logo"
+              width="142px"
+              height="29px"
+            />
           </Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

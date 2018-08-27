@@ -5,7 +5,10 @@ class Banner extends Component {
   render() {
     return (
       <Fragment>
-        <Jumbotron fluid style={{ background: 'none', marginBottom: '0' }}>
+        <Jumbotron
+          fluid
+          style={{ background: 'none', marginBottom: '0', color: '#00234C' }}
+        >
           <Container>
             <h1 className="display-6">{this.props.heroTitle}</h1>
             <p className="lead">{this.props.heroSubtitle}</p>
