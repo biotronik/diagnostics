@@ -31,7 +31,7 @@ class TwoColumnsImageText extends Component {
                   <p>{this.props.featureB}</p>
                   <p>
                     <i>
-                      <b>{this.props.benefitA}</b>
+                      <b>{this.props.benefitB}</b>
                     </i>
                   </p>
                 </ListGroupItem>
@@ -41,7 +41,7 @@ class TwoColumnsImageText extends Component {
                   <p>{this.props.featureC}</p>
                   <p>
                     <i>
-                      <b>{this.props.benefitA}</b>
+                      <b>{this.props.benefitC}</b>
                     </i>
                   </p>
                 </ListGroupItem>
@@ -51,7 +51,7 @@ class TwoColumnsImageText extends Component {
                   <p>{this.props.featureD}</p>
                   <p>
                     <i>
-                      <b>{this.props.benefitA}</b>
+                      <b>{this.props.benefitD}</b>
                     </i>
                   </p>
                 </ListGroupItem>
@@ -61,7 +61,7 @@ class TwoColumnsImageText extends Component {
                   <p>{this.props.featureE}</p>
                   <p>
                     <i>
-                      <b>{this.props.benefitA}</b>
+                      <b>{this.props.benefitE}</b>
                     </i>
                   </p>
                 </ListGroupItem>
@@ -71,7 +71,7 @@ class TwoColumnsImageText extends Component {
                   <p>{this.props.featureF}</p>
                   <p>
                     <i>
-                      <b>{this.props.benefitA}</b>
+                      <b>{this.props.benefitF}</b>
                     </i>
                   </p>
                 </ListGroupItem>
