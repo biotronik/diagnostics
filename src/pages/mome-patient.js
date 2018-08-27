@@ -32,8 +32,11 @@ class MOMEpatient extends Component {
         <TwoColumnsImageText
           listTitle="Why MoMe Kardia?"
           featureA="Convenience – – Your physician can monitor your heart activity remotely,  saving you time from having to travel to unnecessary appointments"
+          benefitA="Fewer office visits – Eliminates return trips to the clinic to initiate alternative testing."
           featureB="Timely diagnosis -- Diagnosis of your condition can occur faster, and your physician can intervene immediately, as needed"
+          benefitB="No waiting or delays for a test period to end before your physician receives data and for you to receive treatment"
           featureC="Continuity of care – All care provided by the patient’s known and trusted medical provider"
+          benefitC="Consistency -- Patients work directly with their own physician’s office without involvement of  third-party service providers"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
         />
@@ -49,6 +52,10 @@ class MOMEpatient extends Component {
           featureC="No service intermediaries  -- Patients work directly with their own physician, never with a third-party service provider"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
+        />
+        <OneColumnText
+          title="What's next?"
+          text="Ask your medical doctor for more information"
         />
       </Fragment>
     )

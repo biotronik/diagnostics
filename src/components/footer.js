@@ -42,7 +42,10 @@ class Footer extends Component {
                 <br />
                 Lake Oswego, OR 97035
               </p>
-              <p>2018 BIOTRONIK, Inc. | All Rights Reserved</p>
+              <ul class="list-inline">
+                <li class="list-inline-item">2018 BIOTRONIK, Inc. |</li>
+                <li class="list-inline-item">All Rights Reserved</li>
+              </ul>
             </Col>
           </Row>
         </Container>

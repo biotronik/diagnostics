@@ -33,8 +33,11 @@ class BM2patient extends Component {
         <TwoColumnsTextImage
           listTitle="Why BioMonitor 2?"
           featureA="Convenience -- No external monitors, cables, or patches that attach to your skin"
+          benefitA="No lifestyle restrictions -- BioMonitor 2 is comfortable and unobtrusive, allowing you to maintain the normal activities of your everyday life.  Not visually noticeable under the skin for the vast majority of patients."
           featureB="Captures critical information -- Records heartbeat irregularities very precisely, stores the information, and transmits it to your doctor"
+          benefitB="Facilitates diagnosis -- Your physician can diagnose your condition quickly, accurately, and reliably to provide you with the best care"
           featureC="Painless, efficient, low-risk insertion -- BioMonitor is inserted subcutaneously (just under the skin). This is a simple and straight-forward procedure that usually takes less than 10 minutes and can be performed under local anesthesia."
+          benefitC="Routine procedure -- Little or no disruption to the patient’s daily life for insertion  procedure."
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg"
           alt="BioMonitor 2"
         />
