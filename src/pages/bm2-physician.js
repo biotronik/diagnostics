@@ -65,7 +65,7 @@ class BM2physician extends Component {
           featureB="BIOTRONIK Home Monitoring® – BioMonitor 2 includes BIOTRONIK Home Monitoring, the only fully automatic, daily monitoring system for cardiac implantable or insertable devices"
           featureC="Flexible, efficient alert management – Robust, customizable alert parameters"
           featureD="Approved for full-body 1.5 T and 3.0 T MRI scanning"
-          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227871/product/bm2/BIO27348_BioMonitor_2__Impuls.jpg"
+          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535411888/product/bm2/BIO14726_BioMonitor_2_AF_und_Remote_Assistant.jpg"
           alt="BioMonitor 2"
         />
         {/* <OneColumnVideo

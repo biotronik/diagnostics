@@ -28,7 +28,7 @@ class MOMEpatient extends Component {
             heroDescription="MoMe Kardia is a mobile monitoring system that assists your physician in diagnosing heartbeat irregularities that may cause symptoms such as palpitations, fatigue, and fainting."
           />
         </Wrapper>
-        <OneColumnText text=" It consists of three small stick-on patches that connect to a cellular transmission unit used for sending medical information to your physician for decisions about your treatment and care." />
+        <OneColumnText text="MoMe Kardia consists of three small stick-on patches that connect to a cellular transmission unit used for sending medical information to your physician for decisions about your treatment and care." />
         <TwoColumnsImageText
           listTitle="Why MoMe Kardia?"
           featureA="Convenience – – Your physician can monitor your heart activity remotely,  saving you time from having to travel to unnecessary appointments"
@@ -41,7 +41,7 @@ class MOMEpatient extends Component {
           alt="MoMe Kardia"
         />
         <OneColumnQuote
-          title="Who is Using MoMe Kardia"
+          title="Who is Using MoMe Kardia?"
           quote="The MoMe device is the best I’ve used and I have been on a couple of different monitors. I was surprised to hear when I called my doctor’s office to tell them I wasn’t feeling great they were able to immediately look at my heartbeat. It was great to know they have the latest technology."
           physician="Joe G., Patient"
         />
@@ -50,7 +50,7 @@ class MOMEpatient extends Component {
           featureA="3-in-1 monitoring solution – Integrates three important cardiac monitoring modes into one device"
           featureB="Near real-time telemetry – Data from your heart is gathered, analyzed, and made available to your care team for review, quickly and continuously"
           featureC="No service intermediaries  -- Patients work directly with their own physician, never with a third-party service provider"
-          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
+          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1534453529/product/IMG_2481.jpg"
           alt="MoMe Kardia"
         />
         <OneColumnText

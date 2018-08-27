@@ -71,7 +71,7 @@ class TwoColumnsTextImage extends Component {
               ) : null}
             </ListGroup>
           </Col>
-          <Col md="6">
+          <Col md="6" className="py-4">
             <img
               src={this.props.image}
               className="img-fluid"

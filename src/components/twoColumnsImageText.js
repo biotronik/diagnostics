@@ -6,7 +6,7 @@ class TwoColumnsImageText extends Component {
     return (
       <Container>
         <Row>
-          <Col md="6">
+          <Col md="6" className="py-4">
             <img
               src={this.props.image}
               className="img-fluid"

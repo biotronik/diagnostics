@@ -49,7 +49,7 @@ class MOMEphysician extends Component {
           featureA="Full Disclosure Data – 3-in-1 device transitions between Holter, Event, and MCT modes;  onset, offset, and event coordination data are available 24/7"
           featureB="Wireless device with automated analysis in the cloud – Provides a unique means to capture and analyze the patient’s cardiac data, with easy access to results"
           featureC="Eliminates the need for a third-party service provider —Fully integrated solution requires no external service reporting	"
-          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
+          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1534453529/product/IMG_2481.jpg"
           alt="MoMe Kardia"
         />
         <OneColumnText
