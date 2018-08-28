@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
+import favicon from '../images/favicon.ico'
+
 import appletouchicon57x57 from '../images/apple-touch-icon-57x57.png'
 import appletouchicon72x72 from '../images/apple-touch-icon-72x72.png'
 import appletouchicon76x76 from '../images/apple-touch-icon-76x76.png'
@@ -63,6 +65,7 @@ const Layout = ({ children, data }) => (
         href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,700i"
         rel="stylesheet"
       />
+      <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       <link rel="apple-touch-icon" sizes="57x57" href={appletouchicon57x57} />
       <link rel="apple-touch-icon" sizes="72x72" href={appletouchicon72x72} />
       <link rel="apple-touch-icon" sizes="76x76" href={appletouchicon76x76} />
