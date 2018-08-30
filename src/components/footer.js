@@ -30,7 +30,7 @@ class Footer extends Component {
           <Row>
             <Col>
               <img
-                src="https://res.cloudinary.com/binc/image/upload/v1535391051/web/BIO08211_BINC_excellence_for_life170x57.png"
+                src={Logo}
                 alt="BIOTRONIK Logo"
                 width="170px"
                 height="57px"
