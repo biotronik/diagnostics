@@ -40,7 +40,7 @@ class IndexPage extends Component {
               }
               title="BioMonitor 2"
               subtitle="Capture. Deliver. Precisely"
-              shortDescription="BioMonitor 2 is an insertable cardiac monitor that is designed to accurately detect arrhythmias or unexplained syncope. This small electrocardiogram device continuously monitors the patient’s heart rhythm for an extended period of time and stores information about heartbeat irregularities. It combines excellent signal quality, BIOTRONIK Home Monitoring, and highly efficient alert management for reliable, continuous arrhythmia monitoring."
+              shortDescription="BioMonitor 2 is an insertable cardiac monitor that is designed to accurately detect arrhythmias or syncope. This small electrocardiogram device continuously monitors the patient’s heart rhythm for an extended period of time and stores information about heartbeat irregularities. It combines excellent signal quality, BIOTRONIK Home Monitoring, and highly efficient alert management for reliable, continuous arrhythmia monitoring."
               physicianLink="/bm2-physician"
               patientLink="/bm2-patient"
             />

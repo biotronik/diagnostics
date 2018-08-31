@@ -28,15 +28,15 @@ class MOMEpatient extends Component {
             heroDescription="MoMe Kardia is a mobile monitoring system that assists your physician in diagnosing heartbeat irregularities that may cause symptoms such as palpitations, fatigue, and fainting."
           />
         </Wrapper>
-        <OneColumnText text="MoMe Kardia consists of three small stick-on patches that connect to a cellular transmission unit used for sending medical information to your physician for decisions about your treatment and care." />
+        <OneColumnText text="MoMe Kardia consists of three small adhesive patches that connect to a cellular monitor used for sending medical information to your physician to support decisions about your treatment and care." />
         <TwoColumnsImageText
           listTitle="Why MoMe Kardia?"
-          featureA="Convenience – – Your physician can monitor your heart activity remotely,  saving you time from having to travel to unnecessary appointments"
+          featureA="Convenience -- Your physician can monitor your heart activity and change test types remotely, saving you time from having to travel to unnecessary appointments"
           benefitA="Fewer office visits – Eliminates return trips to the clinic to initiate alternative testing."
           featureB="Timely diagnosis -- Diagnosis of your condition can occur faster, and your physician can intervene immediately, as needed"
           benefitB="No waiting or delays for a test period to end before your physician receives data and for you to receive treatment"
-          featureC="Continuity of care – All care provided by the patient’s known and trusted medical provider"
-          benefitC="Consistency -- Patients work directly with their own physician’s office without involvement of  third-party service providers"
+          featureC="Continuity of care -- All care provided by your known and trusted medical provider"
+          benefitC="Consistency -- Work directly with your own physician's office without involvement of third-party service providers "
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg"
           alt="MoMe Kardia"
         />

@@ -74,7 +74,7 @@ class BM2physician extends Component {
         /> */}
         <OneColumnText
           title="What's next?"
-          text="Contact your BIOTRONIK representative"
+          text="Contact your local BIOTRONIK sales representative to learn more"
         />
       </Fragment>
     )

@@ -25,7 +25,7 @@ class MOMEphysician extends Component {
           <Banner
             heroTitle="MoMe Kardia"
             heroSubtitle="Get the full picture"
-            heroDescription="MoMe Kardia  is a 3-in-1 ambulatory electrocardiograph detection and monitoring system that empowers physicians with accessible control over the data they need to diagnose and manage patients that are suspected of having or are experiencing cardiac arrhythmias."
+            heroDescription="MoMe Kardia  is a 3-in-1 ambulatory electrocardiograph detection and monitoring system that empowers physicians with accessible control over data needed to diagnose and manage patients that are suspected of having or are experiencing cardiac arrhythmias."
           />
         </Wrapper>
         <OneColumnText text="MoMe Kardia is the first and only FDA approved deep-learning SaaS (software as a service) remote cardiac monitoring platform that replicates in-hospital monitoring to capture and stream beat-to-beat, full-disclosure cardiac data continuously, 24/7, for on-demand review." />
@@ -54,6 +54,7 @@ class MOMEphysician extends Component {
         />
         <OneColumnText
           title="What's Next?"
+          email="customersolutions@biotronik.com"
           text="Request in-Person Demo: customersolutions@biotronik.com"
         />
       </Fragment>
