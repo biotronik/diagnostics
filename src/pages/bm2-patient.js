@@ -54,8 +54,8 @@ class BM2patient extends Component {
           alt="BioMonitor 2"
         />
         <OneColumnVideo
-          title="Listen to Dr. Yunus on the future of ICM technologies"
-          video="https://biotronik.wistia.com/medias/u0oh7jv8vw"
+          title="Listen to how Dr. Yunus evaluates cardiac diagnostic modalities"
+          video="https://biotronik.wistia.com/medias/yw2e8so7j2"
         />
         <OneColumnText
           title="What's next?"
