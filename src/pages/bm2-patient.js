@@ -50,7 +50,7 @@ class BM2patient extends Component {
           featureA="Compact size -- Self-contained, implanted device"
           featureB="Provides vital information – Monitors and records your heart rhythm over an extended time period and sends it to your physician"
           featureC="Easy insertion – Inserting the BioMonitor 2 is a short, uncomplicated procedure"
-          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535411888/product/bm2/BIO14726_BioMonitor_2_AF_und_Remote_Assistant.jpg"
+          image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535737442/product/bm2/BIO14121_BioMonitor_2_und_CardioMessenger_Smart.png"
           alt="BioMonitor 2"
         />
         {/* <OneColumnVideo
