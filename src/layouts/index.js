@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import '@babel/polyfill'
 
 import favicon from '../images/favicon.ico'
 

@@ -53,10 +53,10 @@ class BM2patient extends Component {
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535737442/product/bm2/BIO14121_BioMonitor_2_und_CardioMessenger_Smart.png"
           alt="BioMonitor 2"
         />
-        {/* <OneColumnVideo
+        <OneColumnVideo
           title="Listen to Dr. Yunus on the future of ICM technologies"
           video="https://biotronik.wistia.com/medias/u0oh7jv8vw"
-        /> */}
+        />
         <OneColumnText
           title="What's next?"
           text="Ask your medical doctor for more information"
