@@ -6,9 +6,9 @@ import OneColumnText from '../components/oneColumnText'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  background-image: url('https://res.cloudinary.com/binc/image/upload/v1535387765/product/BM2_MOME_767x600.jpg');
+  background-image: url('https://res.cloudinary.com/binc/image/upload/v1536086101/product/767x600_home.jpg');
   @media (min-width: 768px) {
-    background-image: url('https://res.cloudinary.com/binc/image/upload/v1535387765/product/BM2_MOME_1440x325.jpg');
+    background-image: url('https://res.cloudinary.com/binc/image/upload/v1536083927/product/1440x325_home.jpg');
   }
   background-size: cover;
   background-position: center;
