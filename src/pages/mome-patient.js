@@ -72,11 +72,11 @@ class MOMEpatient extends Component {
           }
           quote={
             <div>
-              "The MoMe<sup>&reg;</sup> device is the best I’ve used and I have
-              been on a couple of different monitors. I was surprised to hear
-              when I called my doctor’s office to tell them I wasn’t feeling
-              great they were able to immediately look at my heartbeat. It was
-              great to know they have the latest technology."
+              "The MoMe device is the best I’ve used and I have been on a couple
+              of different monitors. I was surprised to hear when I called my
+              doctor’s office to tell them I wasn’t feeling great they were able
+              to immediately look at my heartbeat. It was great to know they
+              have the latest technology."
             </div>
           }
           physician="Joe G., Patient"

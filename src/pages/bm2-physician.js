@@ -57,13 +57,27 @@ class BM2physician extends Component {
         </Container>
         <OneColumnQuote
           title="Who Is Using BioMonitor 2?"
-          quote="Look a little deeper, and you will start to discover that not only are the algorithms of these devices different … but more importantly, the way the data is reportable, the way the data is actionable, and the speed and efficiency and accuracy by which the information arrives in my hands can be completely different …"
+          quote={
+            <div>
+              "Look a little deeper, and you will start to discover that not
+              only are the algorithms of these devices different … but more
+              importantly, the way the data is reportable, the way the data is
+              actionable, and the speed and efficiency and accuracy by which the
+              information arrives in my hands can be completely different …"
+            </div>
+          }
           physician="Asim Yunus, MD"
         />
         <TwoColumnsImageText
           listTitle="How Does BioMonitor 2 Work?"
           featureA="Excellent signal quality – High R-wave amplitude and low noise burden provide signal clarity"
-          featureB="BIOTRONIK Home Monitoring® – BioMonitor 2 includes BIOTRONIK Home Monitoring, the only fully automatic, daily monitoring system for cardiac implantable or insertable devices"
+          featureB={
+            <div>
+              BIOTRONIK Home Monitoring<sup>&reg;</sup> – BioMonitor 2 includes
+              BIOTRONIK Home Monitoring, the only fully automatic, daily
+              monitoring system for cardiac implantable or insertable devices
+            </div>
+          }
           featureC="Flexible, efficient alert management – Robust, customizable alert parameters"
           featureD="Approved for full-body 1.5 T and 3.0 T MRI scanning"
           image="https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535737442/product/bm2/BIO14121_BioMonitor_2_und_CardioMessenger_Smart.png"
