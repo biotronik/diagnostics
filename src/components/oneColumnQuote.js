@@ -16,7 +16,7 @@ class OneColumnQuote extends Component {
             <Col className="py-4  text-center">
               <h3>{this.props.title}</h3>
               <blockquote className="blockquote">
-                <p className="mb-0">"{this.props.quote}"</p>
+                <p className="mb-0">{this.props.quote}</p>
                 <footer className="blockquote-footer text-light">
                   {this.props.physician}
                 </footer>

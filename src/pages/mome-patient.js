@@ -23,16 +23,40 @@ class MOMEpatient extends Component {
       <Fragment>
         <Wrapper>
           <Banner
-            heroTitle="MoMe Kardia"
+            heroTitle={
+              <div>
+                MoMe Kardia<sup>&#8482;</sup>
+              </div>
+            }
             heroSubtitle="Provides the full picture"
-            heroDescription="MoMe Kardia is a mobile monitoring system that assists your physician in diagnosing heartbeat irregularities that may cause symptoms such as palpitations, fatigue, and fainting."
+            heroDescription={
+              <div>
+                MoMe Kardia<sup>&#8482;</sup> is a mobile monitoring platform
+                that assists your physician in diagnosing heartbeat
+                irregularities that may cause symptoms such as palpitations,
+                fatigue, and fainting.
+              </div>
+            }
           />
         </Wrapper>
-        <OneColumnText text="MoMe Kardia consists of three small adhesive patches that connect to a cellular monitor used for sending medical information to your physician to support decisions about your treatment and care." />
+        <OneColumnText
+          text={
+            <div>
+              MoMe Kardia<sup>&#8482;</sup> consists of three small adhesive
+              patches that connect to a cellular monitor used for sending
+              medical information to your physician to support decisions about
+              your treatment and care.
+            </div>
+          }
+        />
         <TwoColumnsImageText
-          listTitle="Why MoMe Kardia?"
+          listTitle={
+            <div>
+              Why MoMe Kardia<sup>&#8482;</sup>?
+            </div>
+          }
           featureA="Convenience -- Your physician can monitor your heart activity and change test types remotely, saving you time from having to travel to unnecessary appointments"
-          benefitA="Fewer office visits – Eliminates return trips to the clinic to initiate alternative testing."
+          benefitA="Fewer office visits – Eliminates return trips to the clinic to initiate alternative testing"
           featureB="Timely diagnosis -- Diagnosis of your condition can occur faster, and your physician can intervene immediately, as needed"
           benefitB="No waiting or delays for a test period to end before your physician receives data and for you to receive treatment"
           featureC="Continuity of care -- All care provided by your known and trusted medical provider"
@@ -41,12 +65,28 @@ class MOMEpatient extends Component {
           alt="MoMe Kardia"
         />
         <OneColumnQuote
-          title="Who is Using MoMe Kardia?"
-          quote="The MoMe device is the best I’ve used and I have been on a couple of different monitors. I was surprised to hear when I called my doctor’s office to tell them I wasn’t feeling great they were able to immediately look at my heartbeat. It was great to know they have the latest technology."
+          title={
+            <div>
+              Who is Using MoMe Kardia<sup>&#8482;</sup>?
+            </div>
+          }
+          quote={
+            <div>
+              "The MoMe<sup>&reg;</sup> device is the best I’ve used and I have
+              been on a couple of different monitors. I was surprised to hear
+              when I called my doctor’s office to tell them I wasn’t feeling
+              great they were able to immediately look at my heartbeat. It was
+              great to know they have the latest technology."
+            </div>
+          }
           physician="Joe G., Patient"
         />
         <TwoColumnsTextImage
-          listTitle="How does MoMe Kardia work?"
+          listTitle={
+            <div>
+              How does MoMe Kardia<sup>&#8482;</sup> work?
+            </div>
+          }
           featureA="3-in-1 monitoring solution – Integrates three important cardiac monitoring modes into one device"
           featureB="Near real-time telemetry – Data from your heart is gathered, analyzed, and made available to your care team for review, quickly and continuously"
           featureC="No service intermediaries  -- Patients work directly with their own physician, never with a third-party service provider"

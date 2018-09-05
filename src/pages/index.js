@@ -24,13 +24,23 @@ class IndexPage extends Component {
           <Banner
             heroTitle="Cardiac Diagnostics"
             heroSubtitle="Diagnosis begins with the right device"
-            heroDescription="BIOTRONIK matches technology to the human body to advance health and well-being with a comprehensive portfolio of cardiovascular solutions that are unmatched in safety and reliability. "
+            heroDescription="BIOTRONIK matches technology to the human body to advance health and well-being with a comprehensive portfolio of cardiovascular solutions."
           />
         </Wrapper>
 
         <OneColumnText
-          text="BIOTRONIK’s cardiac diagnostic devices help physicians detect and monitor evidence of a patient’s suspected arrhythmia or unexplained syncope. 
-          Two innovative cardiac diagnostic platforms, MoMe Kardia and BioMonitor 2, are tailored to help improve the patient’s journey to health. Each tool is designed to give physicians a deeper understanding of the patient’s condition, and each allows patients to maintain their normal daily activities with comfort and minimal interference."
+          text={
+            <div>
+              BIOTRONIK’s cardiac diagnostic devices help physicians detect and
+              monitor evidence of a patient’s suspected arrhythmia or
+              unexplained syncope. Two innovative cardiac diagnostic platforms,
+              BioMonitor 2 and MoMe Kardia<sup>&#8482;</sup>, are tailored to
+              help improve the patient’s journey to health. Each tool is
+              designed to give physicians a deeper understanding of the
+              patient’s condition, and each allows patients to maintain their
+              normal daily activities with comfort and minimal interference.
+            </div>
+          }
         />
         <Container className="py-5">
           <Row>
@@ -48,9 +58,22 @@ class IndexPage extends Component {
               image={
                 'https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_540/v1535227862/product/mome/BIO29229_MoMe__Impuls.jpg'
               }
-              title="MoMe Kardia"
+              title={
+                <div>
+                  MoMe Kardia<sup>&#8482;</sup>
+                </div>
+              }
               subtitle="Get the full picture"
-              shortDescription="Wearable and portable,  MoMe Kardia is a 3-in-1 electrocardiograph monitoring system that empowers physicians with full disclosure cardiac information and accessible control over the data needed to diagnose and manage patients that are suspected of having, or are experiencing, cardiac arrhythmias."
+              shortDescription={
+                <div>
+                  Wearable and portable, MoMe Kardia<sup>&#8482;</sup> is a
+                  3-in-1 electrocardiogram monitoring platform that empowers
+                  physicians with full disclosure cardiac ECG data and cloud
+                  based analytics and accessible control over the data needed to
+                  diagnose and manage patients that are suspected of having, or
+                  are experiencing, cardiac arrhythmias.
+                </div>
+              }
               physicianLink="/mome-physician"
               patientLink="/mome-patient"
             />

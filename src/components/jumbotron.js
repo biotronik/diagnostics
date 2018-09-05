@@ -13,9 +13,7 @@ class Banner extends Component {
             <h1 className="display-6">{this.props.heroTitle}</h1>
             <p className="lead">{this.props.heroSubtitle}</p>
             <hr className="my-2" />
-            <div
-              dangerouslySetInnerHTML={{ __html: this.props.heroDescription }}
-            />
+            <div>{this.props.heroDescription}</div>
           </Container>
         </Jumbotron>
       </Fragment>
