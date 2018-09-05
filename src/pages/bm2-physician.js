@@ -30,7 +30,17 @@ class BM2physician extends Component {
             heroDescription="BioMonitor 2 is an insertable cardiac monitoring device designed to help physicians document evidence of a patient’s suspected cardiac arrhythmia or unexplained syncope."
           />
         </Wrapper>
-        <OneColumnText text="Designed to accurately detect arrhythmias by delivering excellent signal quality, BioMonitor 2 offers the assurance of BIOTRONIK Home Monitoring reliability to deliver continuous arrhythmia monitoring with automatic daily transmissions and highly efficient alert management." />
+        <OneColumnText
+          text={
+            <div>
+              Designed to accurately detect arrhythmias by delivering excellent
+              signal quality, BioMonitor 2 offers the assurance of BIOTRONIK
+              Home Monitoring<sup>&reg;</sup> reliability to deliver continuous
+              arrhythmia monitoring with automatic daily transmissions and
+              highly efficient alert management.
+            </div>
+          }
+        />
         <TwoColumnsTextImage
           listTitle="Why BioMonitor 2?"
           featureA="Excellent signal quality -- High signal amplitudes are important to improve overall signal-to-noise ratios, which have a direct impact on detection accuracy."
