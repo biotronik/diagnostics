@@ -49,7 +49,7 @@ class Header extends React.Component {
             <Nav className="ml-auto" navbar>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  BM2
+                  BioMonitor 2
                 </DropdownToggle>
                 <DropdownMenu right>
                   <Link to="/bm2-physician" onClick={this.closeNav}>
