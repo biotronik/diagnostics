@@ -62,7 +62,7 @@ class Header extends React.Component {
               </UncontrolledDropdown>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  MOME
+                  MoMe<sup>&#174;</sup>
                 </DropdownToggle>
                 <DropdownMenu right>
                   <Link to="/mome-physician" onClick={this.closeNav}>
