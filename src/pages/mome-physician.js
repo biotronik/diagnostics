@@ -25,13 +25,13 @@ class MOMEphysician extends Component {
           <Banner
             heroTitle={
               <div>
-                MoMe Kardia<sup>&#8482;</sup>
+                MoMe Kardia<sup>&#174;</sup>
               </div>
             }
             heroSubtitle="Get the full picture"
             heroDescription={
               <div>
-                MoMe Kardia<sup>&#8482;</sup> is a 3-in-1 ambulatory
+                MoMe Kardia<sup>&#174;</sup> is a 3-in-1 ambulatory
                 electrocardiograph detection and monitoring platform that
                 empowers physicians with accessible control over data needed to
                 diagnose and manage patients that are suspected of having or are
@@ -43,7 +43,7 @@ class MOMEphysician extends Component {
         <OneColumnText
           text={
             <div>
-              MoMe Kardia<sup>&#8482;</sup> is the first and only FDA cleared
+              MoMe Kardia<sup>&#174;</sup> is the first and only FDA cleared
               deep-learning SaaS (software as a service) remote cardiac
               monitoring platform that replicates in-hospital monitoring to
               capture and stream beat-to-beat, full-disclosure cardiac ECG data
@@ -54,7 +54,7 @@ class MOMEphysician extends Component {
         <TwoColumnsImageText
           listTitle={
             <div>
-              Why MoMe Kardia<sup>&#8482;</sup>?
+              Why MoMe Kardia<sup>&#174;</sup>?
             </div>
           }
           featureA="Enhanced Workflow – Practices have fast and easy access to complete data, on-demand, anywhere, anytime"
@@ -69,9 +69,9 @@ class MOMEphysician extends Component {
         <OneColumnQuote
           quote={
             <div>
-              "MoMe Kardia<sup>&#8482;</sup> is the only system that allows me
-              to verify reported events, as well as review onset and offset data
-              to identify event triggers. It truly is the new gold standard for
+              "MoMe Kardia<sup>&#174;</sup> is the only system that allows me to
+              verify reported events, as well as review onset and offset data to
+              identify event triggers. It truly is the new gold standard for
               user friendly full disclosure."
             </div>
           }
@@ -80,7 +80,7 @@ class MOMEphysician extends Component {
         <TwoColumnsTextImage
           listTitle={
             <div>
-              How does MoMe Kardia<sup>&#8482;</sup> work?
+              How does MoMe Kardia<sup>&#174;</sup> work?
             </div>
           }
           featureA="Full Disclosure Data – 3-in-1 device transitions between Holter, Event, and MCT modes;  onset, offset, and event coordination data are available 24/7"
