@@ -25,13 +25,13 @@ class MOMEpatient extends Component {
           <Banner
             heroTitle={
               <div>
-                MoMe Kardia<sup>&#8482;</sup>
+                MoMe Kardia<sup>&#174;</sup>
               </div>
             }
             heroSubtitle="Provides the full picture"
             heroDescription={
               <div>
-                MoMe Kardia<sup>&#8482;</sup> is a mobile monitoring platform
+                MoMe Kardia<sup>&#174;</sup> is a mobile monitoring platform
                 that assists your physician in diagnosing heartbeat
                 irregularities that may cause symptoms such as palpitations,
                 fatigue, and fainting.
@@ -42,7 +42,7 @@ class MOMEpatient extends Component {
         <OneColumnText
           text={
             <div>
-              MoMe Kardia<sup>&#8482;</sup> consists of three small adhesive
+              MoMe Kardia<sup>&#174;</sup> consists of three small adhesive
               patches that connect to a cellular monitor used for sending
               medical information to your physician to support decisions about
               your treatment and care.
@@ -52,7 +52,7 @@ class MOMEpatient extends Component {
         <TwoColumnsImageText
           listTitle={
             <div>
-              Why MoMe Kardia<sup>&#8482;</sup>?
+              Why MoMe Kardia<sup>&#174;</sup>?
             </div>
           }
           featureA="Convenience -- Your physician can monitor your heart activity and change test types remotely, saving you time from having to travel to unnecessary appointments"
@@ -67,7 +67,7 @@ class MOMEpatient extends Component {
         <OneColumnQuote
           title={
             <div>
-              Who is Using MoMe Kardia<sup>&#8482;</sup>?
+              Who is Using MoMe Kardia<sup>&#174;</sup>?
             </div>
           }
           quote={
@@ -84,7 +84,7 @@ class MOMEpatient extends Component {
         <TwoColumnsTextImage
           listTitle={
             <div>
-              How does MoMe Kardia<sup>&#8482;</sup> work?
+              How does MoMe Kardia<sup>&#174;</sup> work?
             </div>
           }
           featureA="3-in-1 monitoring solution – Integrates three important cardiac monitoring modes into one device"

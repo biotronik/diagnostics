@@ -34,7 +34,7 @@ class IndexPage extends Component {
               BIOTRONIK’s cardiac diagnostic devices help physicians detect and
               monitor evidence of a patient’s suspected arrhythmia or
               unexplained syncope. Two innovative cardiac diagnostic platforms,
-              BioMonitor 2 and MoMe Kardia<sup>&#8482;</sup>, are tailored to
+              BioMonitor 2 and MoMe Kardia<sup>&#174;</sup>, are tailored to
               help improve the patient’s journey to health. Each tool is
               designed to give physicians a deeper understanding of the
               patient’s condition, and each allows patients to maintain their
@@ -71,13 +71,13 @@ class IndexPage extends Component {
               }
               title={
                 <div>
-                  MoMe Kardia<sup>&#8482;</sup>
+                  MoMe Kardia<sup>&#174;</sup>
                 </div>
               }
               subtitle="Get the full picture"
               shortDescription={
                 <div>
-                  Wearable and portable, MoMe Kardia<sup>&#8482;</sup> is a
+                  Wearable and portable, MoMe Kardia<sup>&#174;</sup> is a
                   3-in-1 electrocardiogram monitoring platform that empowers
                   physicians with full disclosure cardiac ECG data and cloud
                   based analytics and accessible control over the data needed to
