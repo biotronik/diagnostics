@@ -104,7 +104,7 @@ class BM2physician extends Component {
         <Certification>
           <div className="container text-center py-5">
             <a href="/BioMonitor2/" target="_blank" className="btn btn-primary">
-              Get Certified
+              Implant Procedure Training
             </a>
           </div>
         </Certification>
@@ -114,7 +114,7 @@ class BM2physician extends Component {
 }
 
 const Certification = styled.div`
-  background-color: #587992;
+  background-color: #fff;
 `
 
 export default BM2physician

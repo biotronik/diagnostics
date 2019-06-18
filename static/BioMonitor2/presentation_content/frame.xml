@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111000100" textdirection="ltr" device="false" fontscale="100" kbshortcuts="true" skip_nav_enabled="true" chromeless="false" outputtype="ap" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111100100" textdirection="ltr" device="false" fontscale="100" kbshortcuts="true" skip_nav_enabled="true" chromeless="false" outputtype="ap" theme="classic">
   <layouts>
-    <layout name="pxabnsnfns10111000100" font="Verdana" controllayout="pxabnsnfns10111000100" colorscheme="pxabnsnfns10111000100" string_table="pxabnsnfns10111000100" />
+    <layout name="npxnabnsnfns11111100100" font="Verdana" controllayout="npxnabnsnfns11111100100" colorscheme="npxnabnsnfns11111100100" string_table="npxnabnsnfns11111100100" />
+    <layout name="pxabnsnfns11111100100" font="Verdana" controllayout="pxabnsnfns11111100100" colorscheme="npxnabnsnfns11111100100" string_table="npxnabnsnfns11111100100" />
+    <layout name="pxabnsnfns01011100100" font="Verdana" controllayout="pxabnsnfns01011100100" colorscheme="npxnabnsnfns11111100100" string_table="npxnabnsnfns11111100100" />
+    <layout name="pnxanbnsnfns11111100100" font="Verdana" controllayout="pnxanbnsnfns11111100100" colorscheme="npxnabnsnfns11111100100" string_table="npxnabnsnfns11111100100" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -9,11 +12,19 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="BioMonitor2 Office Based Learning" />
+              <option name="title_text" value="BioMonitor 2 Customer Training" />
             </options>
           </option>
-          <option name="logo_enabled" value="false">
-            <options />
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="presentation_content/logo.swf">
+                <properties>
+                  <property name="width" value="244" />
+                  <property name="height" value="53" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/6rgTaZTriwk.jpg" />
+            </options>
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
@@ -22,7 +33,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="resources" value="true" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -69,7 +80,7 @@
           <option name="replay" value="true" />
           <option name="pauseplay" value="true" />
           <option name="enableKeyboardShortcuts" value="true" />
-          <option name="elapsedandtotaltime" value="true" />
+          <option name="elapsedandtotaltime" value="false" />
           <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Open Sans" />
@@ -87,12 +98,35 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="pxabnsnfns10111000100">
+    <control_layout name="npxnabnsnfns11111100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -100,7 +134,53 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01011100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns11111100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -112,7 +192,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns10111000100">
+    <colorscheme name="npxnabnsnfns11111100100">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1018,7 +1098,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns10111000100">
+    <string_table name="npxnabnsnfns11111100100">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1079,23 +1159,52 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="4OtBwENTVrV.326" displaytext="BioMonitor2  Customer Training" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.325" displaytext="Agenda" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.327" displaytext="BioInsight" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.335" displaytext="Inclusion Criteria &amp; Exclusion Criteria" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.334" displaytext="The BioInsight (BioMonitor2 In Office) Study" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.329" displaytext="Reimbursement" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.330" displaytext="Reimbursement" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.331" displaytext="BioMonitor2 Device Overview" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.332" displaytext="BioMonitor2 Indications for use" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.321" displaytext="BioMonitor2 Specifications" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.322" displaytext="BioMonitor2 Device Layout" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.323" displaytext="BioMonitor2 Signal Vector" expand="true" type="slide" />
-        <slidelink slideid="4OtBwENTVrV.354" displaytext="Closing" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.326" displaytext="BioMonitor 2  Customer Training" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.325" displaytext="Agenda" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.327" displaytext="Objectives" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.335" displaytext="Study Protocol" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.334" displaytext="Study Protocol" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.329" displaytext="Reimbursement" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.330" displaytext="Reimbursement" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.331" displaytext="BioMonitor 2 Device Overview" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.332" displaytext="BioMonitor 2 Indications for use" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.321" displaytext="BioMonitor 2 Specifications" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.322" displaytext="BioMonitor 2 Device Layout" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.323" displaytext="BioMonitor 2 Signal Vector" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.291" displaytext="High Signal Quality" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.320" displaytext="High Signal Quality" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.355" displaytext="Results from BM2 Master Study" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.333" displaytext="Benefits of BIOTRONIK Home Monitoring" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.305" displaytext="Customizable Alerts" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.313" displaytext="Traffic Light System" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.307" displaytext="Patient Pre-MRI Conditions" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.292" displaytext="Programmer Detection Settings" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.293" displaytext="sECG Recordings" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.336" displaytext="sECG Recording Hierarchy" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.295" displaytext="Longevity" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.337" displaytext="OBL Procedure Set up" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.338" displaytext="Quick Insertion Kit" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.339" displaytext="Step-by-Step guide for preparation" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.350" displaytext="Step-by-Step guide for preparation" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.351" displaytext="Step-by-Step guide for preparation" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.352" displaytext="Step-by-Step guide for preparation" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.341" displaytext="Implant Video" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.353" displaytext="Sterile Wand Cover" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.342" displaytext="Programming BioMonitor 2" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.344" displaytext="Programming BioMonitor 2" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.347" displaytext="Programming BioMonitor 2" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.346" displaytext="Programming BioMonitor 2" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.345" displaytext="Slide 36" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.348" displaytext="Final considerations" expand="true" type="slide" />
+        <slidelink slideid="4EHn7HShnC0.354" displaytext="Slide 38" expand="true" type="slide" />
       </links>
     </outline>
   </nav_data>
-  <resource_data description="" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Verdana' style='font-size: 11px;' size='11' color='#0B5295'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="presentation_content/external_files/BioMonitor 2 program sets.pdf" image="presentation_content/62Ju26hp0Ht.png" title="BioMonitor 2 Program Sets" />
+    </resources>
+  </resource_data>
   <transcript_data />
   <glossary_data />
 </bwFrame>
