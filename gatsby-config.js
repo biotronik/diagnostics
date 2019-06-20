@@ -19,10 +19,18 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-contentful`,
+      resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        spaceId: `9azfumkamx1o`,
-        accessToken: `37915af3d1f1fda7690e6a3e6047a756c502c245f2fd1f9bbc41db9c488c6f99`,
+        id: 'GTM-5CTPHGX',
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // Specify optional GTM environment details.
+        // gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING',
+        // gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME',
+        // dataLayerName: 'YOUR_DATA_LAYER_NAME',
       },
     },
   ],
