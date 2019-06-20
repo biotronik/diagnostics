@@ -101,9 +101,20 @@ class BM2physician extends Component {
           title="What's next?"
           text="Contact your local BIOTRONIK sales representative to learn more"
         />
+        <Certification>
+          <div className="container text-center py-5">
+            <a href="/BioMonitor2/" target="_blank" className="btn btn-primary">
+              Implant Procedure Training
+            </a>
+          </div>
+        </Certification>
       </Fragment>
     )
   }
 }
+
+const Certification = styled.div`
+  background-color: #fff;
+`
 
 export default BM2physician
